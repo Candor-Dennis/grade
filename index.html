@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <h3>SIMPLE GRADING SYSTEM</h3>
+
+    
+
+    
+    
+
+
+
+
+
+
+ 
+    <script>
+
+        const check = prompt('Enter your result');
+        // const result = 100;
+
+
+        function checkGrade(check) {
+            if (check <= 20) {
+                alert('Grade is F9, Repeat Class');  
+                document.write('Repeat class')
+
+            }else if (check > 20 && check <= 40) {
+                alert('Fair result, try harder')  
+                document.write('Fair result, try harder')
+
+            } else if (check > 40 && check <= 60){
+                alert('Pass') 
+
+            }else if (check > 60 && check <= 80){
+               alert('Good result') 
+
+            }else if (check > 80 && check <= 100){
+                alert('Bravo! Excellent result') 
+                
+            }else{
+                console.log('input valid number')
+            }
+        }
+
+        checkGrade(check);
+
+
+    </script>
+</body>
+</html>
